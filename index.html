@@ -4,7 +4,22 @@
     <link href="styles.css" rel="stylesheet"/>
   </head>
   <body>
-    <div class="card"></div>
+    <div id="login">
+      <h3>Login Here or...</h3>
+      <label for="email">Email</label>
+      <input id="email" name="email" type="text" />
+      <label for="password">Password</label>
+      <input id="password" name="password" type="text" />
+    </div>
+    <div id="create">
+      <h3>Create a new account here</h3>
+      <label for="createEmail">Email</label>
+      <input name="createEmail" type="text" /><br/>
+      <label for="createPassword">Password</label>
+      <input name="createPassword" type="text" /><br/>
+      <label for="confirmPassword">Re-enter Password</label>
+      <input name="confirmPassword" type="text" value=""/>
+    </div>
     <script src="login.js"></script>
   </body>
 </html>
