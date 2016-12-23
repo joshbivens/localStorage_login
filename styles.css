@@ -1,3 +1,7 @@
 body {
   background: #ffdead;
 }
+
+#loggedIn {
+  display: none;
+}
